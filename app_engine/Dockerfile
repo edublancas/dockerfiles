@@ -10,7 +10,7 @@ RUN apt-get install -y wget
 RUN apt-get install -y unzip
 RUN apt-get install -y bzip2
 RUN apt-get install -y git
-
+RUN apt-get install -y gcc
 
 # Install App Engine SDK
 WORKDIR /usr/local
