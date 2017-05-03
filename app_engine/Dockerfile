@@ -14,7 +14,7 @@ RUN apt-get install -y gcc
 
 # Install App Engine SDK
 WORKDIR /usr/local
-RUN wget https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.49.zip -O gae.zip
+RUN wget https://storage.googleapis.com/appengine-sdks/featured/google_appengine_1.9.53.zip -O gae.zip
 RUN unzip gae.zip
 ENV PATH="/usr/local/google_appengine:$PATH"
 
