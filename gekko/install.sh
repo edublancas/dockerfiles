@@ -34,6 +34,11 @@ npm install --only=production
 cd exchange
 npm install --only=production
 
+git clone https://github.com/xFFFFF/Gekko-Strategies
+cd Gekko-Strategies
+bash install.sh
+# requires manual input
+
 SCRIPT="
 #!/usr/bin/env bash
 cd $HOME/gekko
