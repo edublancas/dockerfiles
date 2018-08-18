@@ -1,3 +1,3 @@
-# Dockerfiles
+# Machine configuration files
 
-I like my Dockerfiles like my [dotfiles](https://github.com/edublancas/dotfiles): versioned and organized.
+I like my machines like my [dotfiles](https://github.com/edublancas/dotfiles): versioned and organized.
